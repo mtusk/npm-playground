@@ -1,0 +1,16 @@
+{
+  "name": "package-m",
+  "version": "1.0.1",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pub": "npm install && npm version patch && npm pack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "package-r": "file:../package-r/"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "package-a",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "package-r": "file:../package-r/",
+    "package-d": "file:../package-d/",
+    "package-m": "file:../package-m/"
+  }
+}

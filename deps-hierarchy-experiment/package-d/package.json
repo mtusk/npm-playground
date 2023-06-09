@@ -1,0 +1,20 @@
+{
+  "name": "package-d",
+  "version": "1.0.1",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pub": "npm install && npm version patch && npm pack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "package-m": "file:../package-m/",
+    "package-x": "file:../package-x/"
+  },
+  "peerDependencies": {
+    "package-r": "file:../package-r/"
+  }
+}
